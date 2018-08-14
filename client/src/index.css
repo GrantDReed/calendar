@@ -2,4 +2,52 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.dashboard {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.day {
+  margin: 0 auto;
+  height: 90%;
+  width: 40%;
+  margin-top: 50px;
+}
+
+.table {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+td {
+  text-indent: -50px;
+  padding: 0;
+  margin: 0;
+}
+
+.timeslot {
+  background-color: #3393FF;
+  width: 100%;
+  opacity: 0.7;
+  margin: 0;
+  position: absolute;
+  z-index: 10;
 }
